@@ -78,6 +78,13 @@ export const MISC_SETTINGS_FORM_CFG: ConfigFormSection<MiscConfig> = {
       },
     },
     {
+      key: 'isShowIndeterminateForNoTimeEstimates',
+      type: 'checkbox',
+      templateOptions: {
+        label: T.GCF.MISC.IS_SHOW_INDETERMINATE_FOR_NO_ESTIMATES,
+      },
+    },
+    {
       key: 'defaultProjectId',
       type: 'project-select',
       templateOptions: {
