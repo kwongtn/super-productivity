@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 kwongtn/super-productivity is built on the following main stack:
+
 - [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -22,11 +23,13 @@ kwongtn/super-productivity is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 kwongtn/super-productivity is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -47,14 +50,15 @@ kwongtn/super-productivity is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [kwongtn/super-productivity](https://github.com/kwongtn/super-productivity)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|78<br/>Tools used|11/09/23 <br/>Report generated|
+|79<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -254,9 +258,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (57)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (58)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (57)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (58)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -287,7 +291,7 @@ Full tech stack [here](/techstack.md)
 |[@types/node](https://www.npmjs.com/@types/node)|v16.4.0|10/01/21|dependabot[bot] |MIT|N/A|
 |[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v4.31.2|10/01/21|dependabot[bot] |MIT|N/A|
 |[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v4.32.0|10/01/21|dependabot[bot] |BSD-2-Clause|N/A|
-|[chromedriver](https://www.npmjs.com/chromedriver)|v91.0.1|07/21/21|Johannes Millan |Apache-2.0|N/A|
+|[chromedriver](https://www.npmjs.com/chromedriver)|v91.0.1|07/21/21|Johannes Millan |Apache-2.0|[CVE-2023-26156](https://github.com/advisories/GHSA-hm92-vgmw-qfmx) (Moderate)|
 |[clipboard](https://www.npmjs.com/clipboard)|v2.0.8|04/16/21|dependabot[bot] |MIT|N/A|
 |[codelyzer](https://www.npmjs.com/codelyzer)|v6.0.2|05/04/21|dependabot[bot] |MIT|N/A|
 |[conventional-changelog-cli](https://www.npmjs.com/conventional-changelog-cli)|v2.1.1|09/26/21|Johannes Millan |ISC|N/A|
@@ -300,6 +304,7 @@ Full tech stack [here](/techstack.md)
 |[file-saver](https://www.npmjs.com/file-saver)|v2.0.5|07/21/21|Johannes Millan |MIT|N/A|
 |[glob](https://www.npmjs.com/glob)|v7.1.7|06/11/21|Johannes Millan |ISC|N/A|
 |[hammerjs](https://www.npmjs.com/hammerjs)|v2.0.8|04/16/21|dependabot[bot] |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v4.3.8|05/06/21|Johannes Millan |MIT|N/A|
 |[jasmine-core](https://www.npmjs.com/jasmine-core)|v3.8.0|09/26/21|Johannes Millan |MIT|N/A|
 |[jasmine-spec-reporter](https://www.npmjs.com/jasmine-spec-reporter)|v7.0.0|09/26/21|Johannes Millan |Apache-2.0|N/A|
 |[karma-chrome-launcher](https://www.npmjs.com/karma-chrome-launcher)|v3.1.0|07/21/21|Johannes Millan |MIT|N/A|
@@ -321,4 +326,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
