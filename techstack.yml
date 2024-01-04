@@ -1,11 +1,12 @@
 repo_name: kwongtn/super-productivity
 report_id: d11a03f6bd07803a8aaf35b4d0ffd8f0
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:34:56+00:00'
+timestamp: '2024-01-04T15:06:00+00:00'
 requested_by: johannesjo
 provider: github
 branch: master
-detected_tools_count: 78
+detected_tools_count: 79
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kwongtn/super-productivity
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/kwongtn/super-productivity
   detection_source: Repo Metadata
 - name: Angular
   description: A platform for building mobile and desktop web applications
@@ -37,7 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -50,7 +53,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Dominik Broj
   last_updated_on: 2020-08-28 19:25:47.000000000 Z
@@ -64,7 +67,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Desktop Development
   image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:14:12.000000000 Z
@@ -78,8 +81,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source_url: Dockerfile
-  detection_source: tools/schematics/package.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/Dockerfile
+  detection_source: Dockerfile
   last_updated_by: Johannes Millan
   last_updated_on: 2019-06-08 21:19:46.000000000 Z
 - name: RxJS
@@ -91,7 +94,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2011-01-23 02:00:00.000000000 Z
@@ -104,6 +107,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/kwongtn/super-productivity
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -114,6 +118,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2011-01-23 02:00:00.000000000 Z
@@ -125,6 +130,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kwongtn/super-productivity
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -134,7 +140,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/stale.yml"
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/.github/workflows/build-create-windows-store-on-release.yml
+  detection_source: ".github/workflows/build-create-windows-store-on-release.yml"
   last_updated_by: Johannes Millan
   last_updated_on: 2020-10-04 18:15:00.000000000 Z
 - name: Jasmine
@@ -146,8 +153,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
-  detection_source_url: package-lock.json
-  detection_source: tools/schematics/package.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-07-05 14:22:44.000000000 Z
 - name: Karma
@@ -160,7 +167,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-07 09:27:49.000000000 Z
@@ -175,7 +182,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/4125/Ihf7jKaE.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-03 20:53:03.000000000 Z
@@ -189,7 +196,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 10:21:53.000000000 Z
@@ -201,6 +208,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/tools/schematics/yarn.lock
   detection_source: tools/schematics/yarn.lock
   last_updated_by: Johannes Millan
   last_updated_on: 2019-05-18 16:15:59.000000000 Z
@@ -212,6 +220,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/tools/schematics/package.json
   detection_source: tools/schematics/package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2019-05-18 15:23:57.000000000 Z
@@ -224,6 +233,7 @@ tools:
   category: Application Hosting
   sub_category: Serverless / Task Processing
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2011-01-23 02:00:00.000000000 Z
@@ -238,7 +248,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-04-21 05:09:23.000000000 Z
@@ -252,7 +262,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-22 20:37:20.000000000 Z
@@ -261,6 +271,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-05-06 20:44:39.000000000 Z
@@ -274,7 +285,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -288,7 +299,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16682/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: tools/schematics/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 09:11:45.000000000 Z
@@ -302,7 +313,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16789/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: tools/schematics/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 09:11:45.000000000 Z
@@ -316,7 +327,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -330,7 +341,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16358/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -344,7 +355,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -358,7 +369,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -372,7 +383,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -386,7 +397,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -400,7 +411,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -414,7 +425,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16047/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -428,7 +439,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16444/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -442,7 +453,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -456,7 +467,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -470,7 +481,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16296/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -484,7 +495,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -498,7 +509,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18354/default_afc2a42fbd077078a8d7aed523ae6b2fbe845459.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-02 13:41:35.000000000 Z
@@ -512,7 +523,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17641/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-02 13:41:35.000000000 Z
@@ -526,7 +537,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17411/default_11ae83a8e74ae9812850843051a0501a3bb5313f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -540,7 +551,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18279/default_807e706fb4295a0b54623f7e1643199bb97a2590.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-07-21 16:34:53.000000000 Z
@@ -554,8 +565,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17661/default_eb9caf7d7fb4d231f7e3b04a8c1fbef6fcd9fd73.png
-  detection_source_url: package-lock.json
-  detection_source: tools/schematics/package.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
 - name: "@types/hammerjs"
@@ -568,7 +579,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17205/default_f32012d99e98300650172d76a20c554617f1031d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
@@ -582,8 +593,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: package-lock.json
-  detection_source: tools/schematics/package.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
 - name: "@types/jasminewd2"
@@ -596,7 +607,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16060/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
@@ -610,8 +621,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
-  detection_source: tools/schematics/package.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
 - name: "@typescript-eslint/eslint-plugin"
@@ -624,7 +635,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
@@ -638,7 +649,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
@@ -652,10 +663,17 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16334/default_c64b9481f9c6af91ec9ae0d9b64505998ac31ee7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-07-21 16:34:53.000000000 Z
+  vulnerabilities:
+  - name: chromedriver Command Injection vulnerability
+    cve_id: CVE-2023-26156
+    cve_url: https://github.com/advisories/GHSA-hm92-vgmw-qfmx
+    detected_date: Nov 10
+    severity: moderate
+    first_patched: 119.0.1
 - name: clipboard
   description: Modern copy to clipboard. No Flash. Just 2kb
   package_url: https://www.npmjs.com/clipboard
@@ -666,7 +684,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-04-16 05:11:58.000000000 Z
@@ -680,7 +698,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15956/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-04 05:11:40.000000000 Z
@@ -694,7 +712,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16260/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -708,7 +726,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-03 20:53:03.000000000 Z
@@ -723,7 +741,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17567/default_cce6af1cc5c037d170650dfd256f479915d5a8e4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:14:12.000000000 Z
@@ -737,7 +755,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
@@ -751,7 +769,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
@@ -765,7 +783,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16672/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
@@ -779,7 +797,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-10-01 13:03:12.000000000 Z
@@ -793,7 +811,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16795/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-07-21 16:34:53.000000000 Z
@@ -807,7 +825,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-06-11 16:10:39.000000000 Z
@@ -821,10 +839,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16521/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-04-16 05:12:18.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 4.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Johannes Millan
+  last_updated_on: 2021-05-06 20:44:39.000000000 Z
 - name: jasmine-core
   description: Official packaging of Jasmine's core files for use by Node.js projects
   package_url: https://www.npmjs.com/jasmine-core
@@ -835,7 +867,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -849,7 +881,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16066/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 10:21:53.000000000 Z
@@ -863,7 +895,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-07-21 16:34:53.000000000 Z
@@ -877,7 +909,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16104/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -891,7 +923,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15998/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 11:40:55.000000000 Z
@@ -905,7 +937,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-07-05 14:22:44.000000000 Z
@@ -919,7 +951,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15999/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 10:21:53.000000000 Z
@@ -933,7 +965,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18436/default_7c0bc528b9c47f5cc09b0c87021a81c8d72b33f3.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-04-16 05:11:33.000000000 Z
@@ -947,7 +979,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-04-21 05:09:23.000000000 Z
@@ -974,7 +1006,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-03 20:53:03.000000000 Z
@@ -995,7 +1027,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17303/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-09-20 22:35:26.000000000 Z
@@ -1009,7 +1041,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16281/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-26 10:21:53.000000000 Z
@@ -1023,7 +1055,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-04-16 05:11:33.000000000 Z
@@ -1037,7 +1069,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16368/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2020-07-03 16:02:01.000000000 Z
@@ -1051,7 +1083,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-09-03 20:53:03.000000000 Z
@@ -1065,7 +1097,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-04-14 05:15:31.000000000 Z
@@ -1079,7 +1111,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/super-productivity/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Johannes Millan
   last_updated_on: 2021-07-21 16:34:53.000000000 Z
